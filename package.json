@@ -1,0 +1,26 @@
+{
+  "name": "typescript-learning",
+  "version": "1.0.0",
+  "description": "学习typescript",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FEliuyg/typescript-learning.git"
+  },
+  "keywords": [],
+  "author": "xiaoyao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FEliuyg/typescript-learning/issues"
+  },
+  "homepage": "https://github.com/FEliuyg/typescript-learning#readme",
+  "dependencies": {
+    "typescript": "^4.6.2"
+  }
+}
