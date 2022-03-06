@@ -13,3 +13,5 @@ type Includes<Value extends any[], Item> = IsEqual<Value[0], Item> extends true
   : false;
 
 type a = Includes<[1, 2, 3, 5, 6, 7], 4>;
+
+export {};
