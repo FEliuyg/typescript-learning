@@ -11,3 +11,5 @@ type Z = Promise<Promise<string | number>>;
 type x = MyAwaited<X>;
 type y = MyAwaited<Y>;
 type z = MyAwaited<Z>;
+
+export {};

@@ -27,3 +27,5 @@ type MyReadonly2<T, K extends keyof T> = {
 // type MyReadonly2<T, K extends keyof T = keyof T> =
 //   { readonly [S in K]: T[S] }
 //   & { [S in Diff<keyof T, K>]: T[S] }
+
+export {};
