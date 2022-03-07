@@ -7,3 +7,5 @@ type MyParameters<T extends (...args: any[]) => any> = T extends (
 ) => any
   ? [...R]
   : [];
+
+export {};

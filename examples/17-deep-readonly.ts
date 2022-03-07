@@ -23,3 +23,5 @@ type DeepReadonly<T> = {
       : DeepReadonly<T[P]>
     : T[P];
 };
+
+export {};

@@ -10,3 +10,5 @@ type MyReturnType<T extends (...args: any) => any> = T extends (
 ) => infer B
   ? B
   : never;
+
+export {};
