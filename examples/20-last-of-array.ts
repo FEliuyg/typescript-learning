@@ -9,3 +9,5 @@ type tail3 = Last<arr3>;
 // type Last<T extends unknown[]> = T extends { length: 1 } ? T[0] : T extends [infer A, ...infer B] ? Last<B>: never;
 // type Last<T extends unknown[]> = [never, ...T][T["length"]];
 type Last<T extends any[]> = T extends [...unknown[], infer R] ? R : never;
+
+export {};
