@@ -8,3 +8,5 @@ type AppendArgument<F extends Function, T> = F extends (
 ) => infer B
   ? (...args: [...A, T]) => B
   : never;
+
+export {};
