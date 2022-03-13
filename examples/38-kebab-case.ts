@@ -5,3 +5,5 @@ type KebabCase<T extends string> = T extends `${infer A}${infer B}`
     ? `${Lowercase<A>}${KebabCase<B>}`
     : `${Lowercase<A>}-${KebabCase<B>}`
   : T;
+
+export {};
