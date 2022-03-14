@@ -9,3 +9,5 @@ type AnyOf<T extends unknown[]> = T[number] extends
   | { [key: string]: never }
   ? false
   : true;
+
+export {};
