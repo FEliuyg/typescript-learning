@@ -6,3 +6,5 @@ type Length<
 > = T extends `${infer First}${infer Rest}`
   ? Length<Rest, [...Arr, First]>
   : Arr["length"];
+
+export {};

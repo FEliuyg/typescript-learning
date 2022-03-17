@@ -21,3 +21,5 @@ type PercentageParser<T extends string> = T extends `${infer A}${infer B}`
     ? ["", D, "%"]
     : ["", T, ""]
   : ["", "", ""];
+
+export {};

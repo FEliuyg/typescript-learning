@@ -29,3 +29,5 @@ type ReplacedNotExistKeys = ReplaceKeys<Nodes, "name", { aa: number }>; // {type
 type ReplaceKeys<U, K, T> = {
   [P in keyof U]: P extends K ? (P extends keyof T ? T[P] : never) : U[P];
 };
+
+export {};

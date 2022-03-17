@@ -12,3 +12,5 @@ interface Dog {
 type MyDogType = LookUp<Cat | Dog, "dog">; // expected to be `Dog`
 
 type LookUp<U, V extends string> = U extends { type: V } ? U : never;
+
+export {};

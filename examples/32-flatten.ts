@@ -8,3 +8,5 @@ type Flatten<T extends unknown[], Arr extends unknown[] = []> = T extends [
     ? [...Flatten<First>, ...Flatten<Rest>]
     : [First, ...Flatten<Rest>]
   : Arr;
+
+export {};
