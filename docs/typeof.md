@@ -29,3 +29,5 @@ typeof 只能获取变量或者属性的类型，不能获取表达式或语句�
 ```typescript
 let shouldContinue: typeof msgbox("Are you sure you want to continue?"); // error: ',' expected.
 ```
+
+## 类型守卫
